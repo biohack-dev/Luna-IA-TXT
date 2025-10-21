@@ -40,6 +40,25 @@ chmod +x *.sh
 
 ---
 
+
+📋 Pré-requisitos
+
+
+### ⚙️ Instalação no Linux
+
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install bc jq curl git nmap wget python3 python3-pip espeak libxml2 libxslt termux-api -y
+```
+
+Instale as bibliotecas Python necessárias:
+
+```bash
+pip3 install BeautifulSoup4 requests lxml python-aiml
+```
+
+---
+
 ### 💬 Como usar
 
 Inicie a IA com:
@@ -65,13 +84,6 @@ Luna: Olá! Como posso ajudar você hoje? 🌙
 * 🔗 Compatível com **Termux**, **Ubuntu**, **Debian**, **Alpine** e derivados
 * 🔉 Suporte a voz (opcional via `espeak` ou `gTTS`)
 * 🌐 Scripts utilitários integrados (rede, clima, hora, sistema etc.)
-
----
-
-### 💡 Dependências
-
-* `bash`, `python3`, `curl`, `jq`, `espeak` *(opcional)*
-* Recomenda-se Linux com suporte a terminal colorido
 
 ---
 
